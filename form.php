@@ -2,128 +2,128 @@
 
 class Formulario
 {
-    private $contratante;
-    private $endereco;
-    private $numero;
-    private $bairro;
-    private $cidade;
-    private $representante;
-    private $cpf_cnpj;
-    private $servico;
-    private $preco;
-    private $recebimento;
+    private $customer;
+    private $address;
+    private $number;
+    private $neighborhood;
+    private $city;
+    private $representative;
+    private $doc_ID;
+    private $service;
+    private $price;
+    private $payment_method;
 
     public function __construct(argument)
     {
         // code...
     }
 
-    public function getContratante(){
-        return $this->contratante;
+    public function getcustomer(){
+        return $this->customer;
     }
 
 
-    public function setContratante($contratante){
-        $this->contratante = $contratante;
+    public function setcustomer($customer){
+        $this->customer = $customer;
         return $this;
     }
 
 
-    public function getEndereco(){
-        return $this->endereco;
+    public function getaddress(){
+        return $this->address;
     }
 
 
-    public function setEndereco($endereco){
-        $this->endereco = $endereco;
+    public function setaddress($address){
+        $this->address = $address;
         return $this;
     }
 
 
-    public function getNumero(){
-        return $this->numero;
+    public function getnumber(){
+        return $this->number;
     }
 
 
-    public function setNumero($numero){
-        $this->numero = $numero;
+    public function setnumber($number){
+        $this->number = $number;
         return $this;
     }
 
 
-    public function getBairro(){
-        return $this->bairro;
+    public function getneighborhood(){
+        return $this->neighborhood;
     }
 
 
-    public function setBairro($bairro){
-        $this->bairro = $bairro;
+    public function setneighborhood($neighborhood){
+        $this->neighborhood = $neighborhood;
         return $this;
     }
 
 
-    public function getCidade(){
-        return $this->cidade;
+    public function getcity(){
+        return $this->city;
     }
 
 
-    public function setCidade($cidade){
-        $this->cidade = $cidade;
+    public function setcity($city){
+        $this->city = $city;
         return $this;
     }
 
 
-    public function getRepresentante(){
-        return $this->representante;
+    public function getrepresentative(){
+        return $this->representative;
     }
 
 
-    public function setRepresentante($representante){
-        $this->representante = $representante;
+    public function setrepresentative($representative){
+        $this->representative = $representative;
         return $this;
     }
 
 
     public function getCpfCnpj(){
-        return $this->cpf_cnpj;
+        return $this->doc_ID;
     }
 
 
-    public function setCpfCnpj($cpf_cnpj){
-        $this->cpf_cnpj = $cpf_cnpj;
+    public function setCpfCnpj($doc_ID){
+        $this->doc_ID = $doc_ID;
         return $this;
     }
 
 
-    public function getServico(){
-        return $this->servico;
+    public function getservice(){
+        return $this->service;
     }
 
 
-    public function setServico($servico){
-        $this->servico = $servico;
+    public function setservice($service){
+        $this->service = $service;
         return $this;
     }
 
 
-    public function getPreco(){
-        return $this->preco;
+    public function getprice(){
+        return $this->price;
     }
 
 
-    public function setPreco($preco){
-        $this->preco = $preco;
+    public function setprice($price){
+        $this->price = $price;
         return $this;
     }
 
 
-    public function getRecebimento(){
-        return $this->recebimento;
+    public function getpayment_method(){
+        return $this->payment_method;
     }
 
 
-    public function setRecebimento($recebimento){
-        $this->recebimento = $recebimento;
+    public function setpayment_method($payment_method){
+        $this->payment_method = $payment_method;
         return $this;
     }
 
